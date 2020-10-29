@@ -26,10 +26,10 @@ void openTwitter() {
   ConfigurationBuilder cb = new ConfigurationBuilder();
   
   // Replace the *** with your own tokens and secrets!
-  cb.setOAuthConsumerKey("GZFVJbyXeFEegWVHRY5KOuSxn");
-  cb.setOAuthConsumerSecret("uzuKZUA8EZZWu8HCCnq4uYbjB9YGJ6uJKdKg2eKJ6rUdLAfhcB");
-  cb.setOAuthAccessToken("1293839581004075013-YHHJoMPYMgtClW6wuKgC9Ec7CfdAZe");
-  cb.setOAuthAccessTokenSecret("IGDHxPuHVsfp4JiZpYlwd9273NeTiAbN5Abe9DFIEsKn2");
+  cb.setOAuthConsumerKey("***");
+  cb.setOAuthConsumerSecret("***");
+  cb.setOAuthAccessToken("***");
+  cb.setOAuthAccessTokenSecret("***");
   
   TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
   
